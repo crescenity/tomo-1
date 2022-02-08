@@ -5,15 +5,11 @@ html {
 }
 
 body {
-  width: 350px;
-  margin: 0 auto;
-  background-color: #87ceeb;
-  padding: 0 20px 20px 20px;/*余白*/
-  border: 5px solid black;/*境界*/
+
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   margin: 0;
   padding: 20px 0;
@@ -21,8 +17,34 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-p, li {
+p{
   font-size: 16px;
   line-height: 2;/*行の高さ*/
   letter-spacing: 1px;/*文字の間隔*/
+}
+
+.moji {
+  background-image: url('images/tokerokoyori.png');
+}
+
+.nav_part {
+  font-size: 14px;
+  background: skyblue;
+  width:20%;
+  height:1000px;
+}
+
+.main_part {
+  background: pink;
+  width:80%;
+  height:1000px;
+}
+
+.main_nav_part {
+  display: flex;
+  justify-content: center
+}
+
+.layout {
+  border: 1px solid #949494;
 }
