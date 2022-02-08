@@ -17,10 +17,37 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+h2 {
+  font-size: 13px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px 0;
+  color: #00539F;
+}
+
 p{
   font-size: 16px;
   line-height: 2;/*行の高さ*/
-  letter-spacing: 1px;/*文字の間隔*/
+letter-spacing: 1px;/*文字の間隔*/
+}
+
+.multi_menu {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center
+}
+
+.HOME,.PAGES,.NANKA {
+  display: inline-block;
+  /*border-radius: 5px;*/
+  border: 1px solid #949494;
+  background-color: lightblue;
+  margin: 0em 0em;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
 }
 
 .moji {
