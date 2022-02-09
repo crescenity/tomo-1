@@ -5,9 +5,4 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 </IfModule>
 
 <ifmodule mod_rewrite.c>
-RewriteEngine On
 
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ https://○○○.com/$1 [R=301,L]
-
-</ifmodule>
